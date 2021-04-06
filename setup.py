@@ -1,4 +1,7 @@
 import setuptools
+import os
+
+print(list(os.listdir()))
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
