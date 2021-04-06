@@ -1,11 +1,12 @@
 import setuptools
+from version import _version
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="example-banana", # Replace with your own username
-    version="0.0.1",
+    version=f"{_version}",
     author="A Banana",
     author_email="ba@nana.com",
     description="A small example package",
