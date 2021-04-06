@@ -3,7 +3,7 @@ import setuptools
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-with open("src/version.py", "r", encoding="utf-8") as fh:
+with open("./src/version.py", "r", encoding="utf-8") as fh:
     version = fh.read().split(" = ")[-1]
 
 setuptools.setup(
