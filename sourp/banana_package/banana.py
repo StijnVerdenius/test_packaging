@@ -1,6 +1,6 @@
 import numpy as np
 
-from banana_package.nogeenfile import z
+from sourp.banana_package.nogeenfile import z
 
 
 class Banana:
